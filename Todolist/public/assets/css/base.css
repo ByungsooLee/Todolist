@@ -1,0 +1,92 @@
+* {
+  margin:0; padding:0;
+}
+header {
+  height: 80px;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #707070;
+  color: white;
+}
+
+header .headline{
+    line-height: 80px;
+    float: left;
+    font-size: 30px;
+    margin-left: 100px;
+}
+.nav-list {
+    float: right;
+    margin-right: 100px;
+    list-style: none;
+}
+.nav-list-item {
+  FONT-SIZE: 20PX;
+  list-style: none;
+  display: inline-block;
+  margin: 0 34px;
+  float: right;
+  line-height: 80px;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background: white;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  color: black;
+  opacity: 0.7;
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.signup {
+  background-color: #7C7878;
+  margin-right: 5px;
+}
+
+.login {
+  background-color: #7C7878;
+  margin-left: 5px;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.inline-block {
+  display:  inline-block;     /* インラインブロック要素にする */
+  width: 150px;               /* 幅指定 */
+}
+
