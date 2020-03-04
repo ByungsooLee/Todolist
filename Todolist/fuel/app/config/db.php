@@ -21,5 +21,16 @@
  */
 
 return array(
-
+  'default' => array(
+    'type' => 'mysql',
+    'connection' => array(
+      'hostname' => 'localhost',
+      'database' => 'database',
+      'username' => 'username',
+      'password' => 'password',
+    ),
+    'table_prefix' => '',
+    'charset' => 'utf8',
+    'profiling' => true,
+  )
 );
