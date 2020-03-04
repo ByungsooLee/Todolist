@@ -30,6 +30,25 @@ class Controller_Welcome extends Controller
 	public function action_index()
 	{
 		return Response::forge(View::forge('welcome/index'));
+		// Create the view object 
+		$view = View::forge('welcome/login');  
+		// set the template variables 
+		$this->template->title = "Welcome index page"; 
+		$this->template->content = $view;
+	}
+
+	public function action_login()
+	{
+		// return Response::forge(View::forge('welcome/log'));
+		// Create the view object 
+		$view = View::forge('welcome/login');   
+		// set the template variables 
+		
+	}
+
+	public function action_signup()
+	{
+		$view = View::forge('welcome/signup'); 
 	}
 
 	/**

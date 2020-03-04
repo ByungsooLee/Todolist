@@ -7,19 +7,30 @@ header {
   padding: 15px 0;
   background-color: #707070;
   color: white;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
 
 header .headline{
-    line-height: 80px;
-    float: left;
-    font-size: 30px;
-    margin-left: 100px;
+  line-height: 80px;
+  float: left;
+  font-size: 30px;
+  margin-left: 5%;
 }
+
+header .headline:hover {
+  color: black;
+}
+
 .nav-list {
-    float: right;
-    margin-right: 100px;
-    list-style: none;
+  float: right;
+  margin-right: 100px;
+  list-style: none;
+  margin-right: 5%;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
 }
+
 .nav-list-item {
   FONT-SIZE: 20PX;
   list-style: none;
@@ -29,12 +40,16 @@ header .headline{
   line-height: 80px;
 }
 
+.nav-list-item:hover {
+  color: black;
+}
+
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
 }
 
-a {
+input {
   text-decoration: none;
 }
 
