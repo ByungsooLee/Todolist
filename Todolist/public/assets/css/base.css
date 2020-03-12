@@ -36,7 +36,6 @@ header .headline:hover {
   list-style: none;
   display: inline-block;
   margin: 0 34px;
-  float: right;
   line-height: 80px;
 }
 
@@ -54,9 +53,10 @@ input {
 }
 
 .container {
-  width: 1170px;
+  width:  100%;
   padding: 0 15px;
   margin: 0 auto;
+  position: absolute;
 }
 
 .top-wrapper {
@@ -104,4 +104,3 @@ input {
   display:  inline-block;     /* インラインブロック要素にする */
   width: 150px;               /* 幅指定 */
 }
-

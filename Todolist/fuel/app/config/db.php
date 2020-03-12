@@ -33,4 +33,5 @@ return array(
     'charset' => 'utf8',
     'profiling' => true,
   )
+
 );

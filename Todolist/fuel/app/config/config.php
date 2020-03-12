@@ -17,10 +17,9 @@ return array(
 	 * -------------------------------------------------------------------------
 	 *
 	 *  You can set this to a full or relative URL:
-	 *
-	 *      'base_url' => '/foo/',
-	 *      'base_url' => 'http://foo.com/'
-	 *
+	 **/
+		//'base_url' => '/Todolost/public/welcome/index'
+	/**
 	 *  It MUST contain a trailing slash (/).
 	 *
 	 *  Set this to null to have it automatically detected.
@@ -303,10 +302,10 @@ return array(
 		 */
 
 		'whitelisted_classes' => array(
-			'Fuel\\Core\\Presenter',
 			'Fuel\\Core\\Response',
 			'Fuel\\Core\\View',
 			'Fuel\\Core\\ViewModel',
+			'Fuel\core\Validation',
 			'Closure',
 		),
 	),
@@ -460,17 +459,16 @@ return array(
 		 *  This will assume the packages are in PKGPATH.
 		 *
 		 *  Use this format to specify the path to the package explicitly.
-		 *
-		 *      'packages' => array(
-		 *          array('auth' => PKGPATH.'auth/')
-		 *      );
+		 * 
 		 * ---------------------------------------------------------------------
 		 */
+		'packages' => array(
 
-		// 'packages' => array(
+	'email',
 	'orm',
 	'auth',
 	),
+),
 
 		/**
 		 * ---------------------------------------------------------------------
