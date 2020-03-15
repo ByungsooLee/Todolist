@@ -13,8 +13,8 @@
       <div class="container">
         <h1>REMEMBER.IT</h1>
             <div class="btn-wrapper">
-              <a onclick="location.href='signup.php' " class="btn signup inline-block">Sign Up</a>
-              <a onclick="location.href='login.php' " class="btn signup inline-block">Log In</a>
+              <a onclick="location.href='signup' " class="btn signup inline-block">Sign Up</a>
+              <a onclick="location.href='login' " class="btn signup inline-block">Log In</a>
             </div>
       </div>
     </div>
