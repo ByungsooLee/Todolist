@@ -22,7 +22,7 @@
 return array(
 	'default' => array(
 		'connection' => array(
-			'dsn'      => 'mysql:host=localhost;dbname=Todolist',
+			'dsn'      => 'mysql:host=localhost;dbname=Todolist;unix_socket=/Applications/MAMP/tmp/mysql/mysql.sock',
 			'username' => 'root',
 			'password' => 'root',
 		),
