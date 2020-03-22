@@ -17,8 +17,7 @@
 
         <h1>REMEMBER IT.</h1>
         <div class="content">
-        <?php echo Form::open(['action' => 'user/register', 'method' => 'post']); ?>
-          <form name="form1" method="post" action="">
+          <form name="form1" method="post" action="/signup/create">
               <p>name</p>
               <p class="name"><input name="username" type="name" id="username"></p>
               <p>Mail Address</p>

@@ -1,17 +1,17 @@
-<div class="content">
-  <h2>ようこそ<?=Auth::get_screen_name()?>さん</h2>
-  <p><?=$description?></p>
-  <table width="100%" border="1">
-    <tr>
-    <th scope="col">タイトル</th>
-    <th scope="col">内容</th>
-    </tr>
-  <?php foreach ($query as $row): ?>
-    <tr>
-    <td><?=$row['title']?></td>
-    <td><?=$row['content']?></td>
-    </tr>
-  <?php endforeach;?>
-  </table>
-  <p><a href="logout">ログアウト</a></p>
-</div>
+<!DOCTYPE HTML>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remamber IT</title>
+    <?php echo Asset::css('auth.css'); ?>
+  </head>
+  <body>
+    <header>
+      <?php require 'header.php'; ?>
+    </header>
+      
+  </body>
+</html>
+
+
