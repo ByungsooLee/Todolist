@@ -18,7 +18,6 @@ class Controller_Welcome extends Controller
 		$view = View::forge('welcome/index');  
 		// set the template variables 
 		$this->template['title'] = "Welcome index page"; 
-		//必要なファイルの読み込みはcontrollerで終わらせてしまおう！
 		$view->set('header',\View::forge('template/header'));
 		$view->set('footer',\View::forge('template/footer'));
 		$view->set_global($this->template,null,false);
@@ -27,7 +26,6 @@ class Controller_Welcome extends Controller
 	
 	public function action_test ()
 	{	
-
 		//データベース接続
 		$quary = DB::select()->from('dvd')->excute();
 		echo $row['title']."<br>";
