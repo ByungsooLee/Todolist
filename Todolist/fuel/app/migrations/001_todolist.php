@@ -1,3 +1,5 @@
+<?php
+
 namespace Fuel\Migrations;
 
 class Todolist

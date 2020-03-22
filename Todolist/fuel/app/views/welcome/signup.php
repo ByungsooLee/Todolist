@@ -11,11 +11,16 @@
       <?php require 'header.php'; ?>
     </header>
       <div id="form">
+      <div class="row alert alert-danger">
+        <p><?php echo Session::get_flash('message') ?></p>
+      </div>
+
         <h1>REMEMBER IT.</h1>
         <div class="content">
+        <?php echo Form::open(['action' => 'user/register', 'method' => 'post']); ?>
           <form name="form1" method="post" action="">
               <p>name</p>
-              <p class="name"><input name="name" type="name" id="username"></p>
+              <p class="name"><input name="username" type="name" id="username"></p>
               <p>Mail Address</p>
               <p class="mail"><input type="email" name="email" id="email"></p>
               <p>Password</p>
