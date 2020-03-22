@@ -77,15 +77,10 @@ input {
 .btn-wrapper {
   margin: 20px 0;
 }
-
-.signup {
+/*共通化できるcssは共通化するといいかも！*/
+.body-link{
   background-color: #7C7878;
   margin-right: 5px;
-}
-
-.login {
-  background-color: #7C7878;
-  margin-left: 5px;
 }
 
 .btn {
