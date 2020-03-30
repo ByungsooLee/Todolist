@@ -2,6 +2,7 @@
 <div id="form">
   <h1>REMEMBER IT.</h1>
   <div class="content">
+  <?php echo Asset::css('auth.css'); ?>
     <form name="form1" method="post" action="">
         <p>name</p>
         <p class="name"><input name="name" type="name" id="username"></p>

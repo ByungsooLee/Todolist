@@ -99,3 +99,7 @@ input {
   display:  inline-block;     /* インラインブロック要素にする */
   width: 150px;               /* 幅指定 */
 }
+
+.container title {
+  text-align: center;
+}

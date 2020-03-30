@@ -8,7 +8,7 @@ class Controller_Login extends Controller
 		// loginチェック
 		if (Auth::check())
         {
-        	return Response::redirect('content');
+          return Response::redirect('content');
         }
 	}
 
@@ -33,7 +33,7 @@ class Controller_Login extends Controller
 			$auth = Auth::instance();
 			// 資格情報の確認
 		}
-		if ($auth->login($_POST['username'],$_POST['password']))
+		if ($auth->login($_POST['name'],$_POST['password']))
 		{
 			// 認証OKならトップページへ
 			return Response::redirect('content');
@@ -41,7 +41,7 @@ class Controller_Login extends Controller
 		else
 		{
 			//認証が失敗したときの処理
-			$this->template['username'] = $_POST['username'];
+			$this->template['name'] = $_POST['name'];
 			$this->template['login_error'] = 'ユーザー名かパスワードが違います。再入力して下さい。';
 		}
 
@@ -60,6 +60,8 @@ class Controller_Login extends Controller
 		//ログアウト
 		Auth::logout();
 		//ログアウト画面の表示
-		echo View::forge('welcome/logout');
+		echo View::forge('logout');
 	}
 }
+
+

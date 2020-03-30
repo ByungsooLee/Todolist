@@ -24,7 +24,7 @@ return array(
 		'connection' => array(
 			'dsn'      => 'mysql:host=localhost;dbname=Todolist',
 			'username' => 'root',
-			'password' => '',
+			'password' => '0529pyon',
 		),
 	),
 );

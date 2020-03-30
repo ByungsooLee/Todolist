@@ -16,7 +16,11 @@ form p{
 
 .content {
   margin-top: 41px;
-  position: relative;
+  text-align: center;
+}
+
+.content p{
+  float: left;
 }
 
 .form-title{
@@ -36,10 +40,8 @@ input[type="password"] {
     }
 
     .btn {
-      position: absolute;
       color: white;
-      margin: 0 auto;
-      padding-right: 30%;
+      font-size: 20px;
       background-color: #7C7878;
       width: 150px;
     }

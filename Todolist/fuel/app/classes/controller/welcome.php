@@ -8,7 +8,7 @@ class Controller_Welcome extends Controller
 		// loginチェック
 		if (Auth::check())
         {
-        	return Response::redirect('content');
+					return Response::redirect('content');
         }
 	}
 

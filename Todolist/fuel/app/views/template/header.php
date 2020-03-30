@@ -9,14 +9,13 @@
   </head>
   <header>
 	<div class="container">
-	  <h1 class="headline">
-	    <p class='index home'>HOME</p>
-	  </h1>
-	  <ul class="nav-list">
-	    <li class="nav-list-item signup">Sign Up</li>
-	    <li class="nav-list-item login">Log In</li>
-	  </ul>
+		<h1 class="headline">
+			<p class='index home'>HOME</p>
+		</h1>
+		<ul class="nav-list">
+			<li onclick="location.href='signup.php' " class="nav-list-item">Sign Up</li>
+			<li onclick="location.href='login.php' " class="nav-list-item">Log In</li>
+		</ul>
 	</div>
 	</header>
 	<body>
-  

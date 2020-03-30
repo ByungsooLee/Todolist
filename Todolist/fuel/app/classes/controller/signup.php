@@ -8,7 +8,7 @@ class Controller_Signup extends Controller
 		// loginチェック
 		if (Auth::check())
         {
-        	return Response::redirect('content');
+          return Response::redirect('content');
         }
 	}
 
@@ -30,7 +30,7 @@ class Controller_Signup extends Controller
 		$post = \Input::post();
 		$auth = Auth::instance();
 		//ユーザー登録
-		if(!empty($post)):
+		if(!empty($_post["submit"])):
 			$auth->create_user($post['name'],$post['password'],$post['email']);
 		endif;
 
