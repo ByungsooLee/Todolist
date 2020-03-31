@@ -55,13 +55,6 @@ class Controller_Login extends Controller
 		return $view;
 	}
 
-	public function action_logout()
-	{
-		//ログアウト
-		Auth::logout();
-		//ログアウト画面の表示
-		echo View::forge('logout');
-	}
 }
 
 

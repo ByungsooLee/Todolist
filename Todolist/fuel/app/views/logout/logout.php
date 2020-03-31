@@ -6,6 +6,6 @@
 </head>
 <body>
   <p>ログアウトしました。 </p>
-  <p><a href="index">TOPページへ</a></p>
+  <p><a href="/">TOPページへ</a></p>
 </body>
 </html>

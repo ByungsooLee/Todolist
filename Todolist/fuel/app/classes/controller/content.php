@@ -8,7 +8,7 @@ class Controller_Content extends Controller
 		// loginチェック
 		if (! Auth::check())
         {
-        	return Response::redirect('login');
+					return Response::redirect('login');
         }
 	}
 
