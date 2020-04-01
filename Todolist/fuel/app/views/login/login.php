@@ -3,7 +3,7 @@
   <h1>REMEMBER IT.</h1>
     <div class="content">
       <?php echo Asset::css('auth.css'); ?>
-      <form name="form1" method="post" action="">
+      <form name="form1" method="post" action="/login">
         <?php if(!empty($login_error)): ?>
             <p><?php echo $login_error; ?></p>
         <?php endif; ?>
